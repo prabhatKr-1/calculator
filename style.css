@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  margin: 50px;
+  padding: 10px;
+}
+/* Adding background image */
+body {
+  background-image: url(static/bg.png);
+  color: rgb(246, 113, 113);
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* Making it center */
+.header {
+  text-align: center;
+  font-size: 7vw;
+  color: rgb(256, 256, 256);
+}
+/* Making it center */
+.dis-par {
+  display: flex;
+  justify-content: center;
+}
+/* Display box styling */
+.display {
+  width: 46.1vw;
+  height: 5vh;
+  border: white solid 2px;
+  text-align: right;
+  padding: 5px;
+  font-size: 6vh;
+}
+.left {
+  width: 35vw;
+}
+/* Styling the button area */
+.button-area {
+  display: flex;
+  justify-content: center;
+}
+.flexing {
+  display: flex;
+}
+.row5 {
+  display: flex;
+}
+.btn {
+  /* margin-right: 0px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 10vh;
+  width: 12vw;
+  border: white solid 1px;
+  padding: auto;
+  font-size: 4vw;
+}
+.b0 {
+  width: 24.5vw;
+}
+.dot {
+  width: 12vw;
+}

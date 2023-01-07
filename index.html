@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator Test</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="header">
+        <h3>Calculator</h3>
+      </div>
+      <div class="dis-par flexing"><div class="display"></div></div>
+      <!-- Creating buttons -->
+      <div class="button-area">
+        <!-- Adding number keys and other in the left side-->
+        <div class="left">
+          <!-- Adding rows one by one using flex -->
+          <div class="row1 flexing">
+            <div class="ac btn" data-value="AC">AC</div>
+            <div class="pl-min btn" data-value="+/-">+/-</div>
+            <div class="modulus btn" data-value="%">%</div>
+          </div>
+          <div class="row2 flexing">
+            <div class="b7 btn" data-value="7">7</div>
+            <div class="b8 btn" data-value="8">8</div>
+            <div class="b9 btn" data-value="9">9</div>
+          </div>
+          <div class="row3 flexing">
+            <div class="b4 btn" data-value="4">4</div>
+            <div class="b5 btn" data-value="5">5</div>
+            <div class="b6 btn" data-value="6">6</div>
+          </div>
+          <div class="row4 flexing">
+            <div class="b1 btn" data-value="1">1</div>
+            <div class="b2 btn" data-value="2">2</div>
+            <div class="b3 btn" data-value="3">3</div>
+          </div>
+
+          <div class="row5">
+            <div class="b0 btn" data-value="0">0</div>
+            <div class="dot btn" data-value=".">&nbsp;.&nbsp;</div>
+          </div>
+        </div>
+        <!-- Creating operator buttons -->
+        <div class="right">
+          <div class="oprator-divide btn" data-value="/">/</div>
+          <div class="oprator-multiply btn" data-value="*">*</div>
+          <div class="oprator-minus btn" data-value="-">-</div>
+          <div class="oprator-plus btn" data-value="+">+</div>
+          <div class="oprator-equal btn" data-value="=">=</div>
+        </div>
+      </div>
+    </div>
+    <!-- Adding Created by  -->
+    <div class="footer" style="text-align: center; color: white">
+      <h5>Created by: &#64;Prabhat</h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
